@@ -1,7 +1,7 @@
 {
   "name": "eastlake-sdk-node",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "## Quick Start",
   "main": "lib/east-lake.js",
   "scripts": {
     "test": "jest --coverage"
@@ -32,5 +32,17 @@
     "winston": "^3.8.1",
     "winston-daily-rotate-file": "^4.7.1",
     "winston-transport": "^4.4.0"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuangDi1234/eastlake-sdk-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HuangDi1234/eastlake-sdk-node/issues"
+  },
+  "homepage": "https://github.com/HuangDi1234/eastlake-sdk-node#readme"
 }
