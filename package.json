@@ -1,0 +1,36 @@
+{
+  "name": "eastlake-sdk-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/east-lake.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=14.6.0"
+  },
+  "devDependencies": {
+    "dateformat": "^5.0.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-sonarjs": "^0.14.0",
+    "jest": "^28.1.3",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "object-hash": "^2.0.1",
+    "triple-beam": "^1.3.0",
+    "winston": "^3.8.1",
+    "winston-daily-rotate-file": "^4.7.1",
+    "winston-transport": "^4.4.0"
+  }
+}
