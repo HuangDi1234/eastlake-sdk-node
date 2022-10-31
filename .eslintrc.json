@@ -1,0 +1,60 @@
+{
+    // ESLint 配置规则，https://cn.eslint.org/docs/rules/
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2022": true,
+        "jest": true // Jest 全局变量
+    },
+    // 启用推荐的规则
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "plugins": ["sonarjs"],
+    "rules": {
+        "sonarjs/cognitive-complexity": "error",
+        "sonarjs/no-identical-expressions": "error",
+        "eqeqeq": [
+            "error",
+            "always"
+        ],
+        "indent": [
+            "error",
+            4
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "block-spacing": [
+            "error",
+            "always"
+        ],
+        "comma-spacing": [
+            "error",
+            { "before": false, "after": true }
+        ],
+        "func-call-spacing": [
+            "error",
+            "never"
+        ],
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "array-bracket-spacing": [
+            "error",
+            "always",
+            { "singleValue": false, "objectsInArrays": false }
+        ],
+        "key-spacing": [
+            "error",
+            { "beforeColon": false, "afterColon": true }
+        ]
+    }
+}
